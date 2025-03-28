@@ -1,0 +1,31 @@
+<!DOCTYPE html><!--HTMLファイル宣言-->
+<html><!--HTML開始-->
+<head><!--設定開始-->
+    <meta charset="utf-8"><!--文字コード-->
+        <title>スロット</title><!--ページのタイトル-->
+        <link rel="stylesheet" href="style.css" type="text/css">
+</head><!--設定終了-->
+<body><!--内容開始-->
+    <h1>スロットで数字を揃えよう！</h1>
+    <br>
+    <center>
+    <p>スタートを押してスロットを回そう！</p>
+    <p>ストップで数字を３つ揃えてください</p>
+    </center>
+    <br>
+    <br>
+    <div class="item-list">
+        <div class="item"><span id="slotNum01">1</span></div>
+        <div class="item"><span id="slotNum02">2</span></div>
+        <div class="item"><span id="slotNum03">3</span></div>
+    </div>
+    <br>
+    <br>
+    <center>
+    <button class ="startButton btn--shadow" type="submit" name="startBtn" value="valueStart" id="Btnstart"　onclick ="clickedStartBtn(this)">スタート</button>
+    <button class ="stopButton btn--shadow" type="submit" name="stopBtn" value="valueStop" id="Btnstop" onclick ="clickedStopBtn(this)">ストップ</button>
+    </center>
+    <br>
+    <script src = "slotBtn.js"></script>
+</body><!--内容終了-->
+</html><!--HTML終了--

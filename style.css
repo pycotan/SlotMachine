@@ -1,0 +1,76 @@
+h1 {
+  text-align: center;
+  color: #010079;
+  text-shadow: 0 0 5px white;
+  padding: 0.3em 0.5em;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+
+.item-list {
+  display: flex;
+  height: 300px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.item {
+  width: 33%;
+  text-align: center;
+  vertical-align: middle;
+  
+  font-size: 150px;    /* 数字文字サイズ指定 */
+  color: black;     /* 数字文字色指定 */
+  
+  border-top: 60px solid yellow;
+  border-left: 60px solid pink;
+  border-right: 60px solid red;
+  border-bottom: 60px solid blue;
+  
+}
+.item:nth-child(1) {
+    background-color: white;
+}
+.item:nth-child(2) {
+    background-color: white;
+}
+.item:nth-child(3) {
+    background-color: white;
+}
+
+button {
+  font-size: 100%;
+  width: 12em;
+  height:12em;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.startButton {
+    color: #fff;
+    background-color: #eb6100;
+}
+
+.startButton:hover {
+    color: #fff;
+    background: #f56500;
+}
+
+.stopButton{
+    color: #000;
+    background-color: #fff100;
+}
+
+.stopButton:hover{
+    color: #000;
+    background: #fff462;
+}
+
+a.btn--shadow {
+  -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
